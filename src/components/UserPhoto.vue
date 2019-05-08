@@ -12,6 +12,17 @@
     props : {
       name: String,
       no: String
+    },
+
+    data(){
+      return {
+        name2: '111'
+      }
+    },
+
+    mounted() {
+      this.name2 = '222'
+      this.name = '333'
     }
   }
 </script>
